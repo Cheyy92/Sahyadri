@@ -1,0 +1,12 @@
+Snapshot Reader:
+... preparing to read file: /data/project/hpc2502016/data/sims/sahyadri/default2048/r1/snapdir_100/snapshot_100
+... loaded header and parameters
+... using file: sahyadri/default2048/r1/out_100.trees
+NUmber of halos: 10549241
+Columns: ('index', 'Scale', 'ID', 'descScale', 'descID', 'numProg', 'pid', 'upid', 'descpid', 'phantom', 'sam_mvir', 'mbnd_vir', 'rvir', 'rs', 'vrms', 'mmp', 'ScaleLastMM', 'vmax', 'x', 'y', 'z', 'vx', 'vy', 'vz', 'Jx', 'Jy', 'Jz', 'spin', 'BreadthFirstID', 'DepthFirstID', 'TreeRootID', 'OrigHaloID', 'snapnum', 'NextCoprogDepthFirstID', 'LastProgDepthFirstID', 'LastMainLeafDepthFirstID', 'TidalForce', 'TidalID', 'rs_klypin', 'mvir', 'm200b', 'm200c', 'mCustom2', 'mCustom', 'Xoff', 'Voff', 'spin_bullock', 'b_to_a', 'c_to_a', 'Ax', 'Ay', 'Az', 'b_to_a_500c', 'c_to_a_500c', 'Ax_500c', 'Ay_500c', 'Az_500c', 'TbyU', 'Mpe_Behroozi', 'Mpe_Diemer', 'halfmassradius', 'macc', 'mpeak', 'vacc', 'vpeak', 'halfmassscale', 'accrate_inst', 'accrate_100Myr', 'accrate_1tdyn', 'accrate_2tdyn', 'accrate_mpeak', 'acc_logvmax_inst', 'acc_logvmax_1tdyn', 'mpeakscale', 'accscale', 'firstaccscale', 'firstaccmvir', 'firstaccvmax', 'vmaxAtmpeak', 'TidalForce_tdyn', 'log(vmax/vmax_max(tdyn,tmpeak))', 'time_futmerg', 'futmerg_mmpid', 'spin_mpeakscale')
+First mvir values: [3.6914e+14 3.6400e+14 2.6431e+14 1.6725e+14 1.6206e+14]
+Traceback (most recent call last):
+  File "test_haloreader.py", line 10, in <module>
+    EOF
+NameError: name 'EOF' is not defined
+/var/spool/PBS/mom_priv/jobs/23118.hn1.SC: line 15: EOF: command not found
