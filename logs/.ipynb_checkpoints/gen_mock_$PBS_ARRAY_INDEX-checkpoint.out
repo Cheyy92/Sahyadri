@@ -1,0 +1,18 @@
+Running catalog generation for: var_ns_p2048
+Setting HOD parameters for var_ns_p2048...
+19/10/2026 18:40:2 Begin loading halo catalog: /data/project/hpc2502016/data/halos/sahyadri/var_ns_p2048/r1/compressed/out_82_basic.fits.gz
+19/10/2026 18:40:40 Setting up HOD model
+19/10/2026 18:40:40 Setting up Angular Distribution
+19/10/2026 18:40:40 Setting up Radial profile
+19/10/2026 18:40:40 Setting satellite velocity
+19/10/2026 18:40:40 Setting geometry
+19/10/2026 18:40:40 Populating halos
+	 19/10/2026 18:40:40 Determine population model
+	 19/10/2026 18:40:41 Generating central galaxies position
+	 19/10/2026 18:40:41 Generate satellite radius position
+	 19/10/2026 18:40:43 Generate satellite angular position
+	 19/10/2026 18:40:43 Generate satellite velocity
+	 19/10/2026 18:40:53 Converting to cartesian co-ordinate
+Centrals Ready!
+Satellites Ready!
+Completed var_ns_p2048

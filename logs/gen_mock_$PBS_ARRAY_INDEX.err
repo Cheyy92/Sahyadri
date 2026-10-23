@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/mnt/home/project/csatsangi.chetan/projects/Derivatives/gen_var_cosm.py", line 58, in <module>
+    OneH=simulator.default_mock(halo_file=halo_cat,halo_ftype=halo_ftype,
+  File "/mnt/home/project/csatsangi.chetan/projects/spectrophotogroup/Simulator/simulator.py", line 681, in default_mock
+    obj_halos=HaloParameters(halo_file,halo_ftype,rsd=rsd)
+  File "/mnt/home/project/csatsangi.chetan/projects/spectrophotogroup/Simulator/simulator.py", line 209, in __init__
+    with F.FITS(fname) as fin:
+  File "/mnt/home/project/csatsangi.chetan/.local/lib/python3.10/site-packages/fitsio/fitslib.py", line 649, in __init__
+    self._FITS = _fitsio_wrap.FITS(filename, self.intmode, create)
+OSError: FITSIO status = 104: could not open the named file
+failed to find or open the following file: (ffopen)
+/data/project/hpc2502016/data/halos/sahyadri/var_w_p2048/r1/compressed/out_82_ba
+sic.fits.gz
+
+
